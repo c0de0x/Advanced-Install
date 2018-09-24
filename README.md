@@ -56,13 +56,13 @@ Comparing with building from source manually, you will benefit from using this s
 SSH to your VPS and clone the Github repository:
 
 ```bash
-git clone https://github.com/masternodes/vps.git && cd vps
+git clone https://github.com/MotoAcidic/vps.git && cd vps
 ```
 
 Install & configure your desired master node with options:
 
 ```bash
-./install.sh -p pivx
+./install.sh -p ccbc
 ```
 
 ## Examples for typical script invocation
@@ -72,31 +72,31 @@ These are only a couple of examples for typical setups. Check my [easy step-by-s
 **Install & configure 4 PIVX masternodes:**
 
 ```bash
-./install.sh -p pivx -c 4
+./install.sh -p ccbc -c 4
 ```
 
-**Update daemon of previously installed PIVX masternodes:**
+**Update daemon of previously installed CCBC masternodes:**
 
 ```bash
-./install.sh -p pivx -u
+./install.sh -p ccbc -u
 ```
 
-**Install 6 PIVX masternodes with the git release tag "tags/v3.0.5.1"**
+**Install 6 CCBC masternodes with the git release tag "tags/v3.0.5.1"**
 
 ```bash
-./install.sh -p pivx -c 6 -r "tags/v3.0.5.1"
+./install.sh -p ccbc -c 6 -r "tags/v1.0.0.1"
 ```
 
-**Wipe all PIVX masternode data:**
+**Wipe all CCBC masternode data:**
 
 ```bash
 ./install.sh -p pivx -w
 ```
 
-**Install 2 PIVX masternodes and configure sentinel monitoring:**
+**Install 2 CCBC masternodes and configure sentinel monitoring:**
 
 ```bash
-./install.sh -p pivx -c 2 -s
+./install.sh -p ccbc -c 2 -s
 ```
 
 ## Options
