@@ -56,7 +56,7 @@ Comparing with building from source manually, you will benefit from using this s
 SSH to your VPS and clone the Github repository:
 
 ```bash
-git clone https://github.com/MotoAcidic/vps.git && cd vps
+git clone https://github.com/CryptoCashBack-Hub/Advanced-Install.git && cd vps
 ```
 
 Install & configure your desired master node with options:
@@ -81,16 +81,16 @@ These are only a couple of examples for typical setups. Check my [easy step-by-s
 ./install.sh -p ccbc -u
 ```
 
-**Install 6 CCBC masternodes with the git release tag "tags/v3.0.5.1"**
+**Install 6 CCBC masternodes with the git release tag "tags/v1.0.0.2"**
 
 ```bash
-./install.sh -p ccbc -c 6 -r "tags/v1.0.0.1"
+./install.sh -p ccbc -c 6 -r "tags/v1.0.0.2"
 ```
 
 **Wipe all CCBC masternode data:**
 
 ```bash
-./install.sh -p pivx -w
+./install.sh -p ccbc -w
 ```
 
 **Install 2 CCBC masternodes and configure sentinel monitoring:**
@@ -105,9 +105,9 @@ The _install.sh_ script support the following parameters:
 
 | Long Option  | Short Option | Values              | description                                                         |
 | :----------- | :----------- | ------------------- | ------------------------------------------------------------------- |
-| --project    | -p           | project, e.g. "pix" | shortname for the project                                           |
+| --project    | -p           | project, e.g. "ccbc"| shortname for the project                                           |
 | --net        | -n           | "4" / "6"           | ip type for masternode. (ipv)6 is default                           |
-| --release    | -r           | e.g. "tags/v3.0.4"  | a specific git tag/branch, defaults to latest tested                |
+| --release    | -r           | e.g. "tags/v1.0.0.2"| a specific git tag/branch, defaults to latest tested                |
 | --count      | -c           | number              | amount of masternodes to be configured                              |
 | --update     | -u           | --                  | update specified masternode daemon, combine with -p flag            |
 | --sentinel   | -s           | --                  | install and configure sentinel for node monitoring                  |
@@ -120,25 +120,38 @@ The _install.sh_ script support the following parameters:
 If you want to check the status of your masternode, the best way is currently running the cli e.g. for $MUE via
 
 ```
-/usr/local/bin/mue-cli -conf=/etc/masternodes/mue_n1.conf getinfo
+/usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf getinfo
 
 {
-  "version": 1000302,
-  "protocolversion": 70701,
-  "walletversion": 61000,
-  "balance": 0.00000000,
-  "privatesend_balance": 0.00000000,
-  "blocks": 209481,
-  "timeoffset": 0,
-  "connections": 5,
-  "proxy": "",
-  "difficulty": 42882.54964804553,
-  "testnet": false,
-  "keypoololdest": 1511380627,
-  "keypoolsize": 1001,
-  "paytxfee": 0.00000000,
-  "relayfee": 0.00010000,
-  "errors": ""
+    "version" : 1000002,
+    "protocolversion" : 70003,
+    "walletversion" : 61000,
+    "balance" : 0.00000000,
+    "zerocoinbalance" : 0.00000000,
+    "blocks" : 15719,
+    "timeoffset" : 0,
+    "connections" : 21,
+    "proxy" : "",
+    "difficulty" : 47075.67091216,
+    "testnet" : false,
+    "moneysupply" : 8015522.58694497,
+    "zCCBCsupply" : {
+        "1" : 1.00000000,
+        "5" : 5.00000000,
+        "10" : 10.00000000,
+        "50" : 50.00000000,
+        "100" : 100.00000000,
+        "500" : 0.00000000,
+        "1000" : 0.00000000,
+        "5000" : 0.00000000,
+        "total" : 166.00000000
+    },
+    "keypoololdest" : 1537990754,
+    "keypoolsize" : 1001,
+    "paytxfee" : 0.00000000,
+    "relayfee" : 0.00010000,
+    "staking status" : "Staking Not Active",
+    "errors" : ""
 }
 ```
 
@@ -162,12 +175,12 @@ The management script release will follow within the next couple of days.
 
 | command                               | description                                  |
 | :------------------------------------ | -------------------------------------------- |
-| nodemaster start pivx (all\|number)   | start all or a specific pivx masternode(s)   |
-| nodemaster restart pivx (all\|number) | stop all or a specific pivx masternode(s)    |
-| nodemaster stop pivx (all\|number)    | restart all or a specific pivx masternode(s) |
-| nodemaster cleanup pivx (all\|number) | delete chain data for all pivx masternodes   |
-| nodemaster status pivx (all\|number)  | systemd process status for a pivx masternode |
-| nodemaster tail pivx (all\|number)    | tail debug logs for a pivx masternode        |
+| nodemaster start ccbc (all\|number)   | start all or a specific pivx masternode(s)   |
+| nodemaster restart ccbc (all\|number) | stop all or a specific pivx masternode(s)    |
+| nodemaster stop ccbc (all\|number)    | restart all or a specific pivx masternode(s) |
+| nodemaster cleanup ccbc (all\|number) | delete chain data for all pivx masternodes   |
+| nodemaster status ccbc (all\|number)  | systemd process status for a pivx masternode |
+| nodemaster tail ccbc (all\|number)    | tail debug logs for a pivx masternode        |
 
 # Todo
 
