@@ -81,7 +81,7 @@ These are only a couple of examples for typical setups. Check my [easy step-by-s
 ./install.sh -p ccbc -u
 ```
 
-**Install 6 CCBC masternodes with the git release tag "tags/v1.0.0.2"**
+**Install 6 CCBC masternodes with the git release tag "tags/v1.0.0.4"**
 
 ```bash
 ./install.sh -p ccbc -c 6 -r "tags/v1.0.0.2"
@@ -123,8 +123,8 @@ If you want to check the status of your masternode, the best way is currently ru
 /usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf getinfo
 
 {
-    "version" : 1000002,
-    "protocolversion" : 70003,
+    "version" : 1000004,
+    "protocolversion" : 70004,
     "walletversion" : 61000,
     "balance" : 0.00000000,
     "zerocoinbalance" : 0.00000000,
