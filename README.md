@@ -69,7 +69,7 @@ Install & configure your desired master node with options:
 
 These are only a couple of examples for typical setups. Check my [easy step-by-step guide for [vultr](/docs/masternode_vps.md) that will guide you through the hardest parts.
 
-**Install & configure 4 PIVX masternodes:**
+**Install & configure 4 CCBC masternodes:**
 
 ```bash
 ./install.sh -p ccbc -c 4
