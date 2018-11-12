@@ -56,7 +56,7 @@ Comparing with building from source manually, you will benefit from using this s
 SSH to your VPS and clone the Github repository:
 
 ```bash
-git clone https://github.com/CryptoCashBack-Hub/Advanced-Install.git && cd vps
+git clone https://github.com/CryptoCashBack-Hub/Advanced-Install.git && cd Advanced-Install
 ```
 
 Install & configure your desired master node with options:
