@@ -156,11 +156,18 @@ If you want to check the status of your masternode, the best way is currently ru
 ```
 # Helpful Commands
 
+## Start Coin
+```
+/usr/local/bin/activate_masternodes_ccbc
+```
 ## Stop coin
-* /usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf stop
+```
+/usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf stop
+```
 ## Getinfo
-* /usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf getinfo
-
+```
+/usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf getinfo
+```
 
 # Help, Issues and Questions
 
