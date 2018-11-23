@@ -81,10 +81,10 @@ These are only a couple of examples for typical setups. Check my [easy step-by-s
 ./install.sh -p ccbc -u
 ```
 
-**Install 6 CCBC masternodes with the git release tag "tags/v1.0.0.4"**
+**Install 6 CCBC masternodes with the git release tag "tags/v1.0.0.5"**
 
 ```bash
-./install.sh -p ccbc -c 6 -r "tags/v1.0.0.4"
+./install.sh -p ccbc -c 6 -r "tags/v1.0.0.5"
 ```
 
 **Wipe all CCBC masternode data:**
