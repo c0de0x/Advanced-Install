@@ -78,7 +78,7 @@ These are only a couple of examples for typical setups. Check my [easy step-by-s
 **Update daemon of previously installed CCBC masternodes:**
 
 ```bash
-./install.sh -p ccbc -u
+./install.sh -p ccbc -u -n "6"
 ```
 
 **Install 6 CCBC masternodes with the git release tag "tags/v1.0.0.5"**
