@@ -9,7 +9,7 @@ If this script helped you in any way, please contribute some feedback. BTC donat
 **Have fun, this is crypto after all!**
 
 ```
-BTC  1M8e7hc92g7abm3cH9wdsWiCtUsQo2wXPE
+BTC  1JfM1MU6Ro8e9VBiYzSTvYbzJUyLiupcNr
 ```
 
 
@@ -180,7 +180,7 @@ If this script helped you in any way, please contribute some feedback. BTC donat
 **Have fun, this is crypto after all!**
 
 ```
-BTC  33ENWZ9RCYBG7nv6ac8KxBUSuQX64Hx3x3
+BTC  1JfM1MU6Ro8e9VBiYzSTvYbzJUyLiupcNr
 ```
 
 ## Management script (not yet implemented)
@@ -212,5 +212,5 @@ Ping me at contact@marsmenschen.com for questions and send some crypto my way if
 **Have fun, this is crypto after all!**
 
 ```
-BTC  1M8e7hc92g7abm3cH9wdsWiCtUsQo2wXPE
+BTC  1JfM1MU6Ro8e9VBiYzSTvYbzJUyLiupcNr
 ```
