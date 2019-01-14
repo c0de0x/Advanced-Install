@@ -18,7 +18,7 @@ Feel free to use my reflink to signup and receive a bonus w/ vultr:
 
 ## Supported masternode projects
 
-The ever growing list of supported projects is now maintained at [https://nodemaster-vps.com/supported-masternode-projects/](https://nodemaster-vps.com/supported-masternode-projects/).
+The ever growing list of supported projects is now maintained at [https://github.com/CryptoCashBack-Hub/Advanced-Install/tree/master/config](https://github.com/CryptoCashBack-Hub/Advanced-Install/tree/master/config).
 
 ---
 
@@ -29,6 +29,8 @@ The ever growing list of supported projects is now maintained at [https://nodema
 ---
 
 ## About / Background
+
+A very in depth guide for beginners (https://steemit.com/masternodes/@swcrypto/ccbc-easy-guide-to-setup-multiple-masternodes-on-1-vps) 
 
 Many masternode crypto currencies only have incomplete or even non-existing instructions available how to setup a masternode from source.
 
