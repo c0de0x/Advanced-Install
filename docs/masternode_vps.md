@@ -182,14 +182,8 @@ If my scripts work for you, please send some crypto my way here:
 
 **Have fun, this is crypto after all!**
 
-    onate here:
-
-<a href="https://gitcoin.co/tip/send/2/">
-    <img src='https://gitcoin.co/static/v2/images/promo_buttons/slice_01.png' width=267px height=52px />
-</a>
-
-or send BTC to:
+Send BTC to:
 
 ```
-BTC  33ENWZ9RCYBG7nv6ac8KxBUSuQX64Hx3x3
+BTC  1JfM1MU6Ro8e9VBiYzSTvYbzJUyLiupcNr
 ```
