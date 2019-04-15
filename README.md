@@ -85,7 +85,12 @@ nano /etc/masternodes/abet_n1.conf
 ```
 /usr/local/bin/abet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
 ```
-
+```
+watch /usr/local/bin/altbet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
+```
+```
+/usr/local/bin/altbet-cli -conf=/etc/masternodes/abet_n1.conf masternode status
+```
 **Update daemon of previously installed CCBC masternodes:**
 
 ```bash
