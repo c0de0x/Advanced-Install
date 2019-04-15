@@ -64,7 +64,7 @@ git clone https://github.com/CryptoCashBack-Hub/Advanced-Install.git && cd Advan
 Install & configure your desired master node with options:
 
 ```bash
-./install.sh -p ccbc
+./install.sh -p abet
 ```
 
 ## Examples for typical script invocation
@@ -74,7 +74,16 @@ These are only a couple of examples for typical setups. Check my [easy step-by-s
 **Install & configure 4 CCBC masternodes:**
 
 ```bash
-./install.sh -p ccbc -c 4
+./install.sh -p abet -c 4 -n 6
+```
+```
+nano /etc/masternodes/abet_n1.conf
+```
+```
+/usr/local/bin/activate_masternodes_abet
+```
+```
+/usr/local/bin/abet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
 ```
 
 **Update daemon of previously installed CCBC masternodes:**
