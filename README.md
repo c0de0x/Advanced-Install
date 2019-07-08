@@ -83,7 +83,7 @@ nano /etc/masternodes/abet_n1.conf
 /usr/local/bin/activate_masternodes_abet
 ```
 ```
-/usr/local/bin/abet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
+/usr/local/bin/altbet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
 ```
 ```
 watch /usr/local/bin/altbet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
@@ -94,7 +94,7 @@ watch /usr/local/bin/altbet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
 **Update daemon of previously installed CCBC masternodes:**
 
 ```bash
-./install.sh -p ccbc -u -n "6"
+./install.sh -p abet -u -n "6"
 ```
 
 **Install 6 CCBC masternodes with the git release tag "tags/v1.0.0.5"**
@@ -106,13 +106,13 @@ watch /usr/local/bin/altbet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
 **Wipe all CCBC masternode data:**
 
 ```bash
-./install.sh -p ccbc -w
+./install.sh -p abet -w
 ```
 
 **Install 2 CCBC masternodes and configure sentinel monitoring:**
 
 ```bash
-./install.sh -p ccbc -c 2 -s
+./install.sh -p abet -c 2 -s
 ```
 
 ## Options
@@ -174,19 +174,19 @@ If you want to check the status of your masternode, the best way is currently ru
 
 ## Start Coin on initial install
 ```
-/usr/local/bin/activate_masternodes_ccbc
+/usr/local/bin/activate_masternodes_abet
 ```
 ## Stop coin
 ```
-/usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf stop
+/usr/local/bin/altbet-cli -conf=/etc/masternodes/abet_n1.conf stop
 ```
 ## Start Coin
 ```
-/usr/local/bin/ccbcd -conf=/etc/masternodes/ccbc_n1.conf
+/usr/local/bin/altbetd -conf=/etc/masternodes/abet_n1.conf
 ```
 ## Getinfo
 ```
-/usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf getinfo
+/usr/local/bin/altbet-cli -conf=/etc/masternodes/abet_n1.conf getinfo
 ```
 
 
