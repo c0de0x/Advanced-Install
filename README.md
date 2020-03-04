@@ -94,7 +94,7 @@ nano /etc/masternodes/nbx_n1.conf
 watch /usr/local/bin/nbx-cli -conf=/etc/masternodes/nbx_n1.conf getinfo
 ```
 ```
-/usr/local/bin/nbx-cli -conf=/etc/masternodes/nbx_n1.conf masternode status
+/usr/local/bin/nbx-cli -conf=/etc/masternodes/nbx_n1.conf masternodedebug
 ```
 
 
