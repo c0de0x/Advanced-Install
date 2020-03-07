@@ -67,16 +67,39 @@ Install & configure your desired master node with options:
 ./install.sh -p abet
 ```
 
-
 ```bash
 ./install.sh -p nbx
 ```
+
+```bash
+./install.sh -p pny
+```
+
 
 ## Examples for typical script invocation
 
 These are only a couple of examples for typical setups. Check my [easy step-by-step guide for [vultr](/docs/masternode_vps.md) that will guide you through the hardest parts.
 
 **Install & configure 4 CCBC masternodes:**
+
+```bash
+./install.sh -p pny -c 6 -n 6
+```
+```
+nano /etc/masternodes/pny_n1.conf
+```
+```
+/usr/local/bin/activate_masternodes_pny
+```
+```
+/usr/local/bin/pny-cli -conf=/etc/masternodes/pny_n1.conf getinfo
+```
+```
+watch /usr/local/bin/pny-cli -conf=/etc/masternodes/pny_n1.conf getinfo
+```
+```
+/usr/local/bin/nbx-cli -conf=/etc/masternodes/nbx_n1.conf getmasternodestatus
+```
 
 ```bash
 ./install.sh -p nbx -c 4 -n 6
