@@ -83,6 +83,25 @@ These are only a couple of examples for typical setups. Check my [easy step-by-s
 **Install & configure 4 CCBC masternodes:**
 
 ```bash
+./install.sh -p scap -c 4 -n 6
+```
+```
+nano /etc/masternodes/scap_n1.conf
+```
+```
+/usr/local/bin/activate_masternodes_scap
+```
+```
+/usr/local/bin/safecapital-cli -conf=/etc/masternodes/scap_n1.conf getinfo
+```
+```
+watch /usr/local/bin/safecapital-cli -conf=/etc/masternodes/scap_n1.conf getinfo
+```
+```
+/usr/local/bin/safecapital-cli -conf=/etc/masternodes/scap_n1.conf masternode status
+```
+
+```bash
 ./install.sh -p pny -c 6 -n 6
 ```
 ```
