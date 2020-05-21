@@ -81,6 +81,24 @@ Install & configure your desired master node with options:
 These are only a couple of examples for typical setups. Check my [easy step-by-step guide for [vultr](/docs/masternode_vps.md) that will guide you through the hardest parts.
 
 **Install & configure 4 CCBC masternodes:**
+```bash
+./install.sh -p malw -c 4 -n 6
+```
+```
+nano /etc/masternodes/malw_n1.conf
+```
+```
+/usr/local/bin/activate_masternodes_malw
+```
+```
+/usr/local/bin/malwarechain-cli -conf=/etc/masternodes/malw_n1.conf getinfo
+```
+```
+watch /usr/local/bin/malwarechain-cli -conf=/etc/masternodes/malw_n1.conf getinfo
+```
+```
+/usr/local/bin/malwarechain-cli -conf=/etc/masternodes/malw_n1.conf masternode status
+```
 
 ```bash
 ./install.sh -p scap -c 4 -n 6
