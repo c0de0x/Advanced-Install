@@ -81,6 +81,26 @@ Install & configure your desired master node with options:
 These are only a couple of examples for typical setups. Check my [easy step-by-step guide for [vultr](/docs/masternode_vps.md) that will guide you through the hardest parts.
 
 **Install & configure 4 CCBC masternodes:**
+
+```bash
+./install.sh -p eros -c 6 -n 6
+```
+```
+nano /etc/masternodes/eros_n1.conf
+```
+```
+/usr/local/bin/activate_masternodes_eros
+```
+```
+/usr/local/bin/eros-cli -conf=/etc/masternodes/eros_n1.conf getinfo
+```
+```
+watch /usr/local/bin/eros-cli -conf=/etc/masternodes/eros_n1.conf getinfo
+```
+```
+/usr/local/bin/eros-cli -conf=/etc/masternodes/eros_n1.conf getmasternodestatus
+```
+
 ```bash
 ./install.sh -p malw -c 4 -n 6
 ```
